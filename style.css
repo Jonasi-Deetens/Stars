@@ -1,3 +1,12 @@
+a {
+  color: blue;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 #space {
     width: 96%;
     height: 95vh; /* You can adjust the height as needed */
@@ -19,4 +28,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: white 0px 0px 25px;
 }

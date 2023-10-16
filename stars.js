@@ -37,6 +37,11 @@ function addStars() {
         space.appendChild(star);
     }
 
+    var moon = document.getElementById('moon');
+    moon.addEventListener("click", () => {
+        showStar("{}");
+    });
+
 }
 
 function showStar(data) {
